@@ -22,7 +22,13 @@ public class MyController {
     public String toIndex(){
         return "index";
     }
+
     @GetMapping("Login")
     public String Login(){return "login";}
 
+    @GetMapping("product")
+    public String product(){return "product";}
+
+    @GetMapping("fangwu")
+    public String fangwu(){return "fangwu";}
 }
